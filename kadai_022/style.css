@@ -85,7 +85,8 @@ footer a:hover{
 
 @media screen and (max-width: 768px) {
   #parent {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
   }
   h2{
     font-size: 30px;
